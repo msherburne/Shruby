@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shruby"
+version = "0.1.0"
+description = "A wrapper for ArcGIS API and GeoPandas DataFrame that adds a simple API to repetitive processes used in GIS calculations."
+authors = ["msherburne"]
+readme = "README.md"
+packages = [
+    { include = "shruby", from = "." },
+    { include = "shruby.*", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+arcgis = "^2.2.0.1"
+pandas = "^2.1.3"
+geopandas = "^0.14.1"
+shapely = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
