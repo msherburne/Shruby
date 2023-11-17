@@ -1,1 +1,1 @@
-from lib import ShrubyFrame
+from .lib import ShrubyFrame

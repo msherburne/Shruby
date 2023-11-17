@@ -1,2 +1,7 @@
 *.ipynb
 *.lock
+/build
+*.kml
+*.csv
+dist/
+*.cpython*
