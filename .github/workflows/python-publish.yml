@@ -9,8 +9,8 @@
 name: Upload Python Package
 
 on:
-  # release:
-  #   types: [published]
+  release:
+    types: [published]
   push:
     branches: main
 
@@ -35,6 +35,6 @@ jobs:
     - name: Build package
       run: |
         python -m poetry build
-    # - name: Publish package
+    - name: Publish package
       
       
