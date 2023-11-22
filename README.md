@@ -4,6 +4,7 @@ This library provides one kind of object dubbed "ShrubyFrame". This modified dat
 
 - create_buffers: creates a buffer around a point.
 - create_cones: creates triangle like cones that show a range and direction of a point.
+- create_rings: creates rings based on a buffer around a point
 
 ### Installation
 
